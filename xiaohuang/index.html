@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人网站</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>关于我</h2>
+        <p>你好！我是[Crying Devil]，这是我的个人网站。我是一个[你的职业/兴趣]，喜欢[你的爱好]。</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>作品集</h2>
+        <div class="gallery">
+            <button class="prev">上一张</button>
+            <img src="image1.jpg" alt="作品1">
+            <img src="image2.jpg" alt="作品2" style="display: none;">
+            <img src="image3.jpg" alt="作品3" style="display: none;">
+            <button class="next">下一张</button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>联系我</h2>
+        <form action="https://example.com/form-submit" method="post">
+            <label for="name">姓名:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">电子邮件:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">留言:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">发送</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [你的名字]. 保留所有权利。</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
